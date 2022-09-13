@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* .asp-header{
+    background-color: rgb(43, 43, 43);
+} */
+.asp-container {
+  min-width: 100%;
+  min-height: 100vh;
+}
+.asp-btn-location {
+  background-color: #23a7cc !important;
+}
+.asp-btn-cell {
+  background-color: #cc8523 !important;
+}
+.asp-btn-whatsapp {
+  background-color: #23a7cc !important;
+}
+.asp-sub-header {
+  width: 100%;
+  min-height: 80vh;
+  background-image: linear-gradient(
+      45deg,
+      rgba(35, 167, 204, 0.8),
+      rgba(204, 133, 35, 0.9)
+    ),
+    url("./Assests/woman-undergoing-therapy-with-physiologist.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.asp-sub-header-content {
+  width: 60%;
+  font-size: 45px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.asp-sub-header-form {
+  width: 40%;
+  display: flex;
+  color: #23a7cc;
+  padding-top: 30px;
+}
+.asp-sub-header-form span {
+  color: black;
+}
+.asp-form {
+  width: 80%;
+  height: 90%;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 0 10px #0b80ba;
+}
+.asp-input {
+  width: 100%;
+  height: 14%;
+  border: 1px solid #0b80ba;
+  padding: 10px;
+  color: #23a7cc; 
+}
+.asp-btn-book {
+  width: 100%;
+  text-align: center;
+  background-color: #cc8523 !important;
+}
+::placeholder {
+  color: #23a7cc;
+}
+select {
+  color: #23a7cc;
+}
+input:focus {
+  outline: none !important;
+  border: 1px solid #0b80ba;
+  box-shadow: 0 0 10px #0b80ba;
+}
+select:focus {
+  outline: none !important;
+  border: 1px solid #0b80ba;
+  box-shadow: 0 0 10px #0b80ba;
+}
+.asp-benefit-content {
+  height: 100%;
+  margin-top: 30px;
+  display: flex;
+  padding: 0px 70px;
+}
+.asp-side1 {
+  width: 50%;
+}
+.asp-side2 {
+  width: 50%;
+}
+.asp-choose {
+  margin-top: 20px;
+  display: flex;
+}
+.asp-choose p {
+  font-size: 14px;
+}
+.asp-choose-side1 {
+  width: 50%;
+  background-color: #23a7cc;
+  text-align: center;
+  padding-top: 20px;
+}
+.asp-choose-side2 {
+  padding-top: 20px;
+  width: 50%;
+  background-color: #cc8523;
+  text-align: center;
+}
+.asp-card {
+  margin-top: 30px;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.asp-need {
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      45deg,
+      rgba(35, 167, 204, 0.8),
+      rgba(204, 133, 35, 0.9)
+    ),
+    url("./Assests/depositphotos_76356433-stock-photo-highlighted-spine-of-man-at.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.asp-need-card{
+    height: 150px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+.asp-need-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 60px;
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+.asp-footer{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  position: sticky;
+  bottom: 0;
+  color: white;
+  padding-top: 10px;
+}
+.asp-footer-side1{
+  width: 100%;
+}
+.asp-footer-side2{
+  width: 10%;
+}
+.asp-footer-end{
+  display: flex;
+  margin: 10px;
+}
+.asp-footer-end-icon{
+  padding: 10px;
+}
+.asp-footer-btn{
+  display: none;
+} 
+a{
+  color: white !important;
+}
+.asp-ImageForMobile{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .asp-ImageForMobile{
+    display: block;
+    width: 100%;
+    height: 20vh;
+    background-color: aqua;
+    background: url("./Assests/sideImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+  }
+  .asp-btn-location {
+    display: none !important;
+  }
+
+  .asp-btn-whatsapp {
+    display: none !important;
+  }
+  .asp-btn-cell {
+    background-color: #23a7cc !important;
+  }
+  .asp-sub-header {
+    flex-wrap: wrap;
+  }
+  .asp-sub-header-content {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 0px;
+    margin-bottom: 0 !important;
+  }
+  .asp-sub-header-form {
+    width: 100%;
+    justify-content: center;
+    padding-top: 0;
+    margin-bottom: 15px;
+  }
+  .asp-form {
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .asp-input {
+    height: 12%;
+  }
+  .asp-side2 h5{
+    font-size: 16px;
+  }
+  .asp-benefit-content {
+    flex-wrap: wrap;
+    margin-top: 0px;
+    padding: 0px 0px;
+  }
+  .asp-side1 {
+    width: 50%;
+  }
+  .asp-side1 img {
+    display: none;
+  }
+  .asp-side2 {
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(233, 233, 233);
+  }
+  .asp-choose {
+    margin-top: 0px;
+    flex-wrap: wrap;
+  }
+  .asp-choose-side1 {
+    padding-top: 20px;
+    width: 100%;
+  }
+  .asp-choose-side2 {
+    padding-top: 20px;
+    width: 100%;
+  }
+  .asp-need-container{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .asp-need-container{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-gap: 55px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .asp-need-card{
+    height: 100px;
+    width: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+.asp-need{
+  padding: 20px;
+  min-height: 100vh;
+}
+.asp-btn-book{
+  background-color: #23a7cc !important;
+}
+.asp-footer{
+  background-color:#cc8523;
+  border-radius: 5px;
+}
+.asp-footer-end{
+  display: none;
+}
+.asp-footer-btn{
+  display: block;
+  font-size: 20px;
+}
+.asp-a{
+  color: white !important;
+  text-decoration: none;
+}
+}
