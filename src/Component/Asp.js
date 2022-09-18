@@ -10,6 +10,18 @@ import img5 from './Assests/ww2.png'
 import img6 from './Assests/ww3.png'
 import neckPain from './Assests/download (1).png'
 import emailjs from '@emailjs/browser';
+import elbow from './Assests/elbowPAin.jpg'
+import backPain from './Assests/BackPain.jpg'
+import Knee from './Assests/kneePain.jpg'
+import joint from './Assests/jointPain.jpg'
+import Arthritis from './Assests/Arthritis.jpg'
+import Spondylitis from './Assests/Spondylitis.jpg'
+import shoulder from './Assests/shoulder.jpg'
+import post_surgical from './Assests/post surgical.jpg'
+import knee_replace from './Assests/knee-replace.png'
+import reguler from './Assests/regular.jpg'
+import neuro from './Assests/neuuro.jpg'
+import sportInjury from './Assests/sportsInjury.jpg'
 
 function NewAspPage() {
   const form = useRef();
@@ -26,7 +38,7 @@ function NewAspPage() {
     <>
       <div className="asp-container">
         <div className="asp-header d-flex justify-content-between">
-          <div>
+          <div className="asp-logo">
             <img src={logo} width="150px"></img>
           </div>
           <div className="mt-5">
@@ -149,41 +161,72 @@ function NewAspPage() {
           </div>
         </div>
         <div className="asp-need">
-        <h4>when you need us the most?</h4>
+        <h4 className="pb-3">when you need us the most?</h4>
         <div className="asp-need-container">
             <div className="asp-need-card">
                 <img src={neckPain} className="mt-3" height="80px"></img>
-                <h5 className="mt-4">shoulder and neckPain</h5>
+                <h5 className="mt-4">shoulder</h5>
             </div>
             <div className="asp-need-card">
-                <img src={neckPain} className="mt-3" height="80px"></img>
-                <h5 className="mt-4">shoulder and neckPain</h5>
+                <img src={elbow} className="mt-3" height="80px"></img>
+                <h5 className="mt-4">Elbow Pain</h5>
             </div>
             <div className="asp-need-card">
-                <img src={neckPain} className="mt-3" height="80px"></img>
-                <h5 className="mt-4">shoulder and neckPain</h5>
+                <img src={backPain} className="mt-3" height="80px"></img>
+                <h5 className="mt-4">BackPain</h5>
             </div>
             <div className="asp-need-card">
-                <img src={neckPain} className="mt-3" height="80px"></img>
-                <h5 className="mt-4">shoulder and neckPain</h5>
+                <img src={Knee} className="mt-3" height="80px"></img>
+                <h5 className="mt-4">KneePain</h5>
             </div>
             <div className="asp-need-card">
-                <img src={neckPain} className="mt-3" height="80px"></img>
-                <h5 className="mt-4">shoulder and neckPain</h5>
+                <img src={joint} className="mt-3" height="80px"></img>
+                <h5 className="mt-4">JointPain</h5>
             </div>
             <div className="asp-need-card">
-                <img src={neckPain} className="mt-3" height="80px"></img>
-                <h5 className="mt-4">shoulder and neckPain</h5>
+                <img src={Arthritis} className="mt-3" height="80px"></img>
+                <h5 className="mt-4">Arthritis</h5>
             </div>
             <div className="asp-need-card">
-                <img src={neckPain} className="mt-3" height="80px"></img>
-                <h5 className="mt-4">shoulder and neckPain</h5>
+                <img src={Spondylitis} className="mt-3" height="80px"></img>
+                <h5 className="mt-4">Spondylitis</h5>
             </div>
             <div className="asp-need-card">
-                <img src={neckPain} className="mt-3" height="80px"></img>
-                <h5 className="mt-4">shoulder and neckPain</h5>
+                <img src={shoulder} className="mt-3" height="80px"></img>
+                <h5 className="mt-4">Frozen Shoulder</h5>
             </div>
         </div>
+        </div>
+        <div className="asp-physio">
+          <h4 className="pt-3 pb-3">Advanced physio care at home</h4>
+          <div className="asp-physio-care">
+          <div className="asp-need-card">
+                <img src={post_surgical} className="mt-3" height="80px"></img>
+                <h5 className="mt-4">post surgical</h5>
+            </div>
+            <div className="asp-need-card">
+                <img src={knee_replace} className="mt-3" height="80px"></img>
+                <h5 className="mt-4">knee_replace</h5>
+            </div>
+            <div className="asp-need-card">
+                <img src={reguler} className="mt-3" height="80px"></img>
+                <h5 className="mt-4">reguler</h5>
+            </div>
+            {/* </div>
+            <div className="asp-physio-care"> */}
+            <div className="asp-need-card">
+                <img src={neuro} className="mt-3" height="80px"></img>
+                <h5 className="mt-4">neuuro</h5>
+            </div>
+            <div className="asp-need-card">
+                <img src={sportInjury} className="mt-3" height="80px"></img>
+                <h5 className="mt-4">sportInjury</h5>
+            </div>
+            <div className="asp-need-card">
+                <img src={sportInjury} className="mt-3" height="80px"></img>
+                <h5 className="mt-4">sportInjury</h5>
+            </div>
+          </div>
         </div>
         <div className="asp-footer">
           <div className="asp-footer-end"><div>For Book Doctor Visits</div>&nbsp;&nbsp;

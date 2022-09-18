@@ -8,6 +8,9 @@
 /* .asp-header{
     background-color: rgb(43, 43, 43);
 } */
+.asp-logo{
+  min-height: 30%;
+}
 .asp-container {
   min-width: 100%;
   min-height: 100vh;
@@ -148,6 +151,7 @@ select:focus {
 .asp-need-container{
   display: grid;
   grid-template-columns: auto auto auto auto;
+  height: 100%;
   margin-left: 60px;
   grid-gap: 10px;
   margin-top: 20px;
@@ -182,6 +186,27 @@ a{
 }
 .asp-ImageForMobile{
   display: none;
+}
+.asp-physio-care{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin:30px 0px 0px 70px ;
+  /* margin: 60px; */
+  gap: 100px;
+}
+.asp-physio{
+text-align: center;
+padding: 40px;
+width: 100%;
+height: 100%;
+background-image: linear-gradient(
+    45deg,
+    rgba(204, 133, 35, 0.9),
+    rgba(35, 167, 204, 0.8)
+  ),
+  url("./Assests/depositphotos_76356433-stock-photo-highlighted-spine-of-man-at.jpg");
+background-repeat: no-repeat;
+background-size: cover;
 }
 @media only screen and (max-width: 768px) {
   .asp-ImageForMobile{
@@ -267,6 +292,7 @@ a{
   .asp-need-container{
     display: grid;
     grid-template-columns:auto auto;
+    height: 77vh;
     grid-gap: 55px;
     margin-left: 0px;
     margin-top: 0px;
@@ -277,9 +303,11 @@ a{
     background-color: white;
     border-radius: 10px;
 }
+.asp-need-card h5{
+  font-size: 16px;
+}
 .asp-need{
   padding: 20px;
-  min-height: 100vh;
 }
 .asp-btn-book{
   background-color: #23a7cc !important;
@@ -298,5 +326,17 @@ a{
 .asp-a{
   color: white !important;
   text-decoration: none;
+}
+.asp-physio-care{
+  display: grid;
+  grid-template-columns:auto auto;
+  height: 63vh;
+  grid-gap: 55px;
+  margin-left: 25px;
+  margin-top: 0px;
+}
+.asp-physio{
+  padding: 0px;
+  /* height: 75vh; */
 }
 }
