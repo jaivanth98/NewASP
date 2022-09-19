@@ -24,7 +24,21 @@ import neuro from './Assests/neuuro.jpg'
 import sportInjury from './Assests/sportsInjury.jpg'
 
 function NewAspPage() {
+  const initialValue = {
+    name : "",
+    phoneNumber : "",
+    email : "",
+    gender : ""
+  }
+  const [formValue,setFormValue] = useState(initialValue)
   const form = useRef();
+  const handleForm=(e)=>{
+    const value = e.target.value
+    setFormValue({
+      ...formValue,
+      [e.target.name]:value
+    })
+  }
   const handleSubmit = (e)=>{
     e.preventDefault()
     emailjs.sendForm('service_3j0t1kg', 'template_tm2icb6', form.current, 'jdMaf6QPsGWpiFB4K')
@@ -33,6 +47,7 @@ function NewAspPage() {
     }, (error) => {
         console.log(error.text);
     });
+    setFormValue(initialValue)
   }
   return (
     <>
@@ -60,29 +75,35 @@ function NewAspPage() {
             Expert Physiotherapists at your Doorstep in Chennai
           </div>
           <div className="asp-sub-header-form  mt-3">
-            <form ref={form} className="asp-form" onSubmit={handleSubmit}>
+            <form className="asp-form" ref={form} onSubmit={handleSubmit}>
               <input
                 type={"text"}
                 className="asp-input mb-3"
                 placeholder="Name"
-                name="fname"
+                onChange={handleForm}
+                name="name"
+                value={formValue.name}
                 required
               ></input>
               <input
                 type={"number"}
                 className="asp-input mb-3"
                 placeholder="Phone Number"
+                onChange={handleForm}
                 name="phoneNumber"
+                value={formValue.phoneNumber}
                 required
               ></input>
               <input
                 type={"email"}
                 className="asp-input mb-3"
                 placeholder="Email"
+                onChange={handleForm}
                 name="email"
+                value={formValue.email}
                 required
               ></input>
-              <select className="asp-input mb-3" name="option">
+              <select className="asp-input mb-3" name="option" onChange={handleForm} value={formValue.gender}>
                 <option>Select Gender</option>
                 <option>male</option>
                 <option>Female</option>
