@@ -22,6 +22,7 @@ import knee_replace from './Assests/knee-replace.png'
 import reguler from './Assests/regular.jpg'
 import neuro from './Assests/neuuro.jpg'
 import sportInjury from './Assests/sportsInjury.jpg'
+import geriatric from './Assests/ger.jpg'
 import Slider from './slider.js'
 
 function NewAspPage() {
@@ -71,6 +72,7 @@ function NewAspPage() {
         </div>
         <div className="asp-sub-header">
           <div className="asp-ImageForMobile">
+            <h5>Professional <font style={{color:"red"}}>Physio </font> At Home</h5>
           </div>
           <div className="asp-sub-header-content ">
             Expert Physiotherapists at your Doorstep in Chennai
@@ -223,11 +225,6 @@ function NewAspPage() {
          <div className="asp-test-wrapper">
           <h5 className="mt-3">Testimonial</h5>
           <Slider/>
-          {/* <div>
-            <img src={shoulder}  height="80px" className="asp-test-img"/>
-            <p className="mt-4">This is one of the best clinic in Chennai.
-Here there is advanced treatment like Shockwave and Laser which cured my neck pain within 10 sittings. Dr.Bharath sir taught the exercises very clearly.</p>
-          </div> */}
           </div>
         </div>
         <div className="asp-physio">
@@ -235,29 +232,27 @@ Here there is advanced treatment like Shockwave and Laser which cured my neck pa
           <div className="asp-physio-care">
           <div className="asp-need-card">
                 <img src={post_surgical} className="mt-3" height="80px"></img>
-                <h5 className="mt-4">post surgical</h5>
+                <h5 className="mt-4">Post Surgical rehabilitation</h5>
             </div>
             <div className="asp-need-card">
                 <img src={knee_replace} className="mt-3" height="80px"></img>
-                <h5 className="mt-4">knee_replace</h5>
+                <h5 className="mt-4">Knee Rehabilitation</h5>
             </div>
             <div className="asp-need-card">
                 <img src={reguler} className="mt-3" height="80px"></img>
-                <h5 className="mt-4">reguler</h5>
+                <h5 className="mt-4">Pediatric Rehabilitation</h5>
             </div>
-            {/* </div>
-            <div className="asp-physio-care"> */}
             <div className="asp-need-card">
                 <img src={neuro} className="mt-3" height="80px"></img>
-                <h5 className="mt-4">neuuro</h5>
+                <h5 className="mt-4">Stoke Rehabilitation</h5>
             </div>
             <div className="asp-need-card">
                 <img src={sportInjury} className="mt-3" height="80px"></img>
-                <h5 className="mt-4">sportInjury</h5>
+                <h5 className="mt-4">Sport Injury Rehabilitation</h5>
             </div>
             <div className="asp-need-card">
-                <img src={sportInjury} className="mt-3" height="80px"></img>
-                <h5 className="mt-4">sportInjury</h5>
+                <img src={geriatric} className="mt-3" height="80px"></img>
+                <h5 className="mt-4">Geriatric Rehabilitation</h5>
             </div>
           </div>
         </div>

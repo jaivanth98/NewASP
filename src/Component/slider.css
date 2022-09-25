@@ -47,5 +47,8 @@
     .slideshow {
       max-width: 500px;
     }
+    .slide {
+      margin-top: 20px;
+    }
 
   }

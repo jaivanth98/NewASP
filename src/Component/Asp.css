@@ -308,10 +308,20 @@ background-size: cover;
     justify-content: space-around;
     margin-top: 20px;
   }
+  .asp-ImageForMobile h5{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 1.4rem;
+  color: white;
+  width: 100px;
+  }
+  .asp-ImageForMobile span{
+    color: #cc8523;
+  }
   .asp-need-container{
     display: grid;
     grid-template-columns:auto auto;
-    height: 77vh;
+    height: 80vh;
     grid-gap: 55px;
     margin-left: 0px;
     margin-top: 0px;
