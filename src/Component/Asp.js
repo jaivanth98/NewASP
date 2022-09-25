@@ -22,6 +22,7 @@ import knee_replace from './Assests/knee-replace.png'
 import reguler from './Assests/regular.jpg'
 import neuro from './Assests/neuuro.jpg'
 import sportInjury from './Assests/sportsInjury.jpg'
+import Slider from './slider.js'
 
 function NewAspPage() {
   const initialValue = {
@@ -163,7 +164,7 @@ function NewAspPage() {
             </div>
           </div>
           
-          <div className="asp-choose-side2">
+          <div className="asp-choose-side1 asp-why">
             <h5>Why Choose Us</h5>
             <div className="asp-card">
               <div className="ms-3">
@@ -217,6 +218,17 @@ function NewAspPage() {
                 <h5 className="mt-4">Frozen Shoulder</h5>
             </div>
         </div>
+        </div>
+        <div className="asp-test-container">
+         <div className="asp-test-wrapper">
+          <h5 className="mt-3">Testimonial</h5>
+          <Slider/>
+          {/* <div>
+            <img src={shoulder}  height="80px" className="asp-test-img"/>
+            <p className="mt-4">This is one of the best clinic in Chennai.
+Here there is advanced treatment like Shockwave and Laser which cured my neck pain within 10 sittings. Dr.Bharath sir taught the exercises very clearly.</p>
+          </div> */}
+          </div>
         </div>
         <div className="asp-physio">
           <h4 className="pt-3 pb-3">Advanced physio care at home</h4>

@@ -1,5 +1,6 @@
 import Asp from "./Component/Asp"
 import {Helmet} from 'react-helmet'
+import Slider from './Component/slider'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         name="description" content="home service , physiotherapy, neck pain, pain , back pain, near me ,chennai"></meta>
       </Helmet>
     <Asp/>
+    {/* <Slider/> */}
     </div>
   );
 }
