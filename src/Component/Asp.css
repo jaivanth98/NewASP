@@ -312,11 +312,11 @@ background-size: cover;
     margin-top: 20px;
   }
   .asp-ImageForMobile h5{
-    margin-top: 10px;
+    margin-top: 25px;
     margin-left: 20px;
     font-size: 1.9rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color:rgb(0, 0, 0);
+  color:rgb(33, 32, 32);
   width: 200px;
   }
   .asp-ImageForMobile span{

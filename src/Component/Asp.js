@@ -30,7 +30,7 @@ function NewAspPage() {
     name : "",
     phoneNumber : "",
     email : "",
-    gender : ""
+    gender : " "
   }
   const [formValue,setFormValue] = useState(initialValue)
   const form = useRef();
@@ -41,6 +41,7 @@ function NewAspPage() {
       [e.target.name]:value
     })
   }
+  console.log("cxdkjvhvdx",formValue)
   const handleSubmit = (e)=>{
     e.preventDefault()
     emailjs.sendForm('service_3j0t1kg', 'template_tm2icb6', form.current, 'jdMaf6QPsGWpiFB4K')
@@ -106,7 +107,7 @@ function NewAspPage() {
                 value={formValue.email}
                 required
               ></input>
-              <select className="asp-input mb-3" name="option" onChange={handleForm} value={formValue.gender}>
+              <select className="asp-input mb-3" name="option" onChange={handleForm} >
                 <option>Select Gender</option>
                 <option>male</option>
                 <option>Female</option>
