@@ -8,7 +8,7 @@ function App() {
       <Helmet>
         <title>Asp physiotherapy</title>
         <meta 
-        name="description" content="home service , physiotherapy, neck pain, pain , back pain, near me ,chennai"></meta>
+        name="description" content="home physio,physiotherapy,neck pain,pain,back pain,near me,chennai,best phsiotherapy,best homecare physio,best healthcare"></meta>
       </Helmet>
     <Asp/>
     {/* <Slider/> */}

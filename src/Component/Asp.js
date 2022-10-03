@@ -61,13 +61,13 @@ function NewAspPage() {
           </div>
           <div className="mt-5">
             <div className="btn asp-btn-location me-3">
-              <i class="fa-solid fa-location-dot"></i> Location
+              <a href="https://www.google.com/maps/dir//A.S.P+Physiotherapy+Clinic+-+Physiotherapist+%26+accupuncturist+in+Ambattur,+6,+West,+N+Park+St,+Venkatapuram,+Ambattur,+Chennai,+Tamil+Nadu+600053/@13.1188206,80.1542949,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3a5263a61eda90d5:0xaf6d55cebfc6ab7e!2m2!1d80.1542949!2d13.1188206" target="blank"><i class="fa-solid fa-location-dot"></i> Location</a>
             </div>
             <div className="btn asp-btn-cell me-3">
-              <i class="fa-solid fa-phone"></i> 8825741271
+            <a className="asp-a" href="tel:8825741271"><i class="fa-solid fa-phone"></i> 8825741271</a>
             </div>
             <div className="btn asp-btn-whatsapp me-3">
-            <i class="fa-solid fa-globe"></i> Health Care
+            <a target="blank" href="http://www.aspphysioclinic.com/"><i class="fa-solid fa-globe"></i> Health Care</a>
             </div>
           </div>
         </div>
