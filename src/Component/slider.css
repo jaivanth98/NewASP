@@ -40,15 +40,17 @@
   }
   @media only screen and (max-width: 768px) {
    .asp-slider p{
-   width: 66%;
-   margin-left: 5rem;
+   width: 90%;
+   /* margin-left: 1rem; */
    text-align: center;
    }
     .slideshow {
-      max-width: 500px;
+      width: 100%;
     }
     .slide {
       margin-top: 20px;
+      width: 100%;
+      margin-left: 10px;
     }
 
   }

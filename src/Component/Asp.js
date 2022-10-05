@@ -56,15 +56,15 @@ function NewAspPage() {
     <>
       <div className="asp-container">
         <div className="asp-header d-flex justify-content-between">
-          <div className="asp-logo">
-            <img src={logo} width="150px"></img>
+          <div className="asp-logo pb-5">
+            <img src={logo} ></img>
           </div>
-          <div className="mt-5">
+          <div className="asp-btn-align">
             <div className="btn asp-btn-location me-3">
               <a href="https://www.google.com/maps/dir//A.S.P+Physiotherapy+Clinic+-+Physiotherapist+%26+accupuncturist+in+Ambattur,+6,+West,+N+Park+St,+Venkatapuram,+Ambattur,+Chennai,+Tamil+Nadu+600053/@13.1188206,80.1542949,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3a5263a61eda90d5:0xaf6d55cebfc6ab7e!2m2!1d80.1542949!2d13.1188206" target="blank"><i class="fa-solid fa-location-dot"></i> Location</a>
             </div>
             <div className="btn asp-btn-cell me-3">
-            <a className="asp-a" href="tel:8825741271"><i class="fa-solid fa-phone"></i> 8825741271</a>
+            <a className="asp-a" href="tel:9941424372"><i class="fa-solid fa-phone"></i> 9941424372</a>
             </div>
             <div className="btn asp-btn-whatsapp me-3">
             <a target="blank" href="http://www.aspphysioclinic.com/"><i class="fa-solid fa-globe"></i> Health Care</a>
@@ -135,7 +135,7 @@ function NewAspPage() {
               Any person from any age group can be treated with the help of
               physiotherapy and one can see unbelievable speed of recovery too.
               But the question arises, “what kind of patients can Physiotherapy
-              treat?”{" "}
+              treat?{" "}
             </h5>
             <ul>
               <li>Patients recovering from injuries</li>
@@ -259,19 +259,19 @@ function NewAspPage() {
         </div>
         <div className="asp-footer">
           <div className="asp-footer-end"><div>For Book Doctor Visits</div>&nbsp;&nbsp;
-         <div>  <i class="fa-solid fa-phone"></i> :&nbsp; 8874959456</div>
+         <div>  <i class="fa-solid fa-phone"></i> :&nbsp; 9941424372</div>
          </div>
          <div className="asp-footer-end">
           <div> <p>For Customer Support & Feedback : </p></div>
          <div>&nbsp;
           {" "}
-         <i class="fa-brands fa-instagram"></i>{"  "}&nbsp;
-          <i class="fa-brands fa-youtube"></i>{" "}&nbsp;
-          <i class="fa-brands fa-facebook"></i>
+        <a href="https://instagram.com/asp_health_care?igshid=YmMyMTA2M2Y=" target="blank"><i class="fa-brands fa-instagram"></i></a> {"  "}&nbsp;
+          <a href="https://www.youtube.com/channel/UClkvzOQVexUGl9xb-1uJ3MQ" target="blank"><i class="fa-brands fa-youtube"></i></a>{" "}&nbsp;
+          <a href="https://www.facebook.com/people/A-S-P-Physio-clinic/100064148828654/" target="blank"><i class="fa-brands fa-facebook"></i></a>
          </div>
         </div>
      <div className="asp-footer-btn mb-3">
-     <a className="asp-a" href="tel:8825741271"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp; 8825741271</a>
+     <a className="asp-a" href="tel:9941424372"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp; 9941424372</a>
      </div>
         </div>
       </div>
